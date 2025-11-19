@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.page{
+    background-color: rgb(175, 135, 214);
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 450px;
+    padding: 15px 10px;
+    
+}
+
+form.grp{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+form.grp label{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    padding-top: 80px;
+}
