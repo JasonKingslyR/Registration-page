@@ -1,0 +1,47 @@
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Center the form box */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The box around the form — same style as login */
+.formz {
+    background-color: aquamarine;
+    width: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.3);
+}
+
+/* Each label + input aligned like login page */
+.form-grp {
+    margin-bottom: 15px;
+}
+
+/* Labels same style */
+.form-grp label {
+    display: inline-block;
+    width: 150px;        /* Align labels left */
+    font-weight: bold;
+}
+
+/* Inputs same size */
+.form-grp input {
+    width: 200px;
+    height: 20px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #333;
+}
+
+.buttons{
+    text-align: center;
+    
+}
